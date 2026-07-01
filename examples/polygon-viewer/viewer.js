@@ -1,5 +1,6 @@
 const MANIFEST_URL = "../../data/countries/manifest.json";
-const SOURCE_ROOT = "../../data/source/opendatasoft";
+const ROOT_PARAM = new URLSearchParams(window.location.search).get("root");
+const SOURCE_ROOT = ROOT_PARAM || "../../../work/polygon-data";
 const FIT_PADDING = 24;
 const DEFAULT_VIEW = {
   centerLon: 0,
@@ -52,14 +53,38 @@ function setDefinitionList(element, rows) {
   }
 }
 
-function geometryFromSourcePayload(payload) {
-  const shape = payload?.geo_shape;
+function geometryFromPayload(payload) {
+  const shape = payload?.geo_shape ?? payload;
   if (!shape) {
-    throw new Error("Missing geo_shape");
+    throw new Error("Missing geometry payload");
   }
 
   if (shape.type === "Feature") {
     return shape.geometry;
+  }
+
+  if (shape.type === "FeatureCollection") {
+    if (!Array.isArray(shape.features) || shape.features.length === 0) {
+      throw new Error("FeatureCollection did not contain any features");
+    }
+
+    if (shape.features.length === 1) {
+      return geometryFromPayload(shape.features[0]);
+    }
+
+    return {
+      type: "MultiPolygon",
+      coordinates: shape.features.flatMap((feature) => {
+        const geometry = geometryFromPayload(feature);
+        if (geometry.type === "Polygon") {
+          return [geometry.coordinates];
+        }
+        if (geometry.type === "MultiPolygon") {
+          return geometry.coordinates;
+        }
+        throw new Error(`Unsupported feature geometry type: ${geometry.type}`);
+      }),
+    };
   }
 
   if (shape.type === "Polygon" || shape.type === "MultiPolygon") {
@@ -70,7 +95,7 @@ function geometryFromSourcePayload(payload) {
     return shape.geometry;
   }
 
-  throw new Error(`Unsupported geo_shape type: ${shape.type ?? "unknown"}`);
+  throw new Error(`Unsupported geometry type: ${shape.type ?? "unknown"}`);
 }
 
 function normalizeGeometry(geometry) {
@@ -372,11 +397,11 @@ async function loadCountry(isoCountryCode) {
 
   const response = await fetch(`${SOURCE_ROOT}/${country.isoCountryCode}.json`);
   if (!response.ok) {
-    throw new Error(`Failed to load source geometry for ${country.isoCountryCode}`);
+    throw new Error(`Failed to load geometry for ${country.isoCountryCode} from ${SOURCE_ROOT}`);
   }
 
   const payload = await response.json();
-  const geometry = normalizeGeometry(geometryFromSourcePayload(payload));
+  const geometry = normalizeGeometry(geometryFromPayload(payload));
   const bounds = computeBounds(geometry);
 
   state.selectedCountry = country;

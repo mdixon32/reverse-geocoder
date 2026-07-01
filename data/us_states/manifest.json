@@ -6,7 +6,6 @@
     "stateFips": "02",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 29,
     "file": "US_AK_Alaska.cpp",
     "function": "makeUSStateBoundaryAK"
   },
@@ -17,7 +16,6 @@
     "stateFips": "01",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 67,
     "file": "US_AL_Alabama.cpp",
     "function": "makeUSStateBoundaryAL"
   },
@@ -28,7 +26,6 @@
     "stateFips": "05",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 75,
     "file": "US_AR_Arkansas.cpp",
     "function": "makeUSStateBoundaryAR"
   },
@@ -39,7 +36,6 @@
     "stateFips": "04",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 15,
     "file": "US_AZ_Arizona.cpp",
     "function": "makeUSStateBoundaryAZ"
   },
@@ -50,7 +46,6 @@
     "stateFips": "06",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 58,
     "file": "US_CA_California.cpp",
     "function": "makeUSStateBoundaryCA"
   },
@@ -61,7 +56,6 @@
     "stateFips": "08",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 64,
     "file": "US_CO_Colorado.cpp",
     "function": "makeUSStateBoundaryCO"
   },
@@ -72,7 +66,6 @@
     "stateFips": "09",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 8,
     "file": "US_CT_Connecticut.cpp",
     "function": "makeUSStateBoundaryCT"
   },
@@ -83,7 +76,6 @@
     "stateFips": "10",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 3,
     "file": "US_DE_Delaware.cpp",
     "function": "makeUSStateBoundaryDE"
   },
@@ -94,7 +86,6 @@
     "stateFips": "12",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 67,
     "file": "US_FL_Florida.cpp",
     "function": "makeUSStateBoundaryFL"
   },
@@ -105,7 +96,6 @@
     "stateFips": "13",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 159,
     "file": "US_GA_Georgia.cpp",
     "function": "makeUSStateBoundaryGA"
   },
@@ -116,7 +106,6 @@
     "stateFips": "15",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 5,
     "file": "US_HI_Hawaii.cpp",
     "function": "makeUSStateBoundaryHI"
   },
@@ -127,7 +116,6 @@
     "stateFips": "19",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 99,
     "file": "US_IA_Iowa.cpp",
     "function": "makeUSStateBoundaryIA"
   },
@@ -138,7 +126,6 @@
     "stateFips": "16",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 44,
     "file": "US_ID_Idaho.cpp",
     "function": "makeUSStateBoundaryID"
   },
@@ -149,7 +136,6 @@
     "stateFips": "17",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 102,
     "file": "US_IL_Illinois.cpp",
     "function": "makeUSStateBoundaryIL"
   },
@@ -160,7 +146,6 @@
     "stateFips": "18",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 92,
     "file": "US_IN_Indiana.cpp",
     "function": "makeUSStateBoundaryIN"
   },
@@ -171,7 +156,6 @@
     "stateFips": "20",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 105,
     "file": "US_KS_Kansas.cpp",
     "function": "makeUSStateBoundaryKS"
   },
@@ -182,7 +166,6 @@
     "stateFips": "21",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 120,
     "file": "US_KY_Kentucky.cpp",
     "function": "makeUSStateBoundaryKY"
   },
@@ -193,7 +176,6 @@
     "stateFips": "22",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 64,
     "file": "US_LA_Louisiana.cpp",
     "function": "makeUSStateBoundaryLA"
   },
@@ -204,7 +186,6 @@
     "stateFips": "25",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 14,
     "file": "US_MA_Massachusetts.cpp",
     "function": "makeUSStateBoundaryMA"
   },
@@ -215,7 +196,6 @@
     "stateFips": "24",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 24,
     "file": "US_MD_Maryland.cpp",
     "function": "makeUSStateBoundaryMD"
   },
@@ -226,7 +206,6 @@
     "stateFips": "23",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 16,
     "file": "US_ME_Maine.cpp",
     "function": "makeUSStateBoundaryME"
   },
@@ -237,7 +216,6 @@
     "stateFips": "26",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 83,
     "file": "US_MI_Michigan.cpp",
     "function": "makeUSStateBoundaryMI"
   },
@@ -248,7 +226,6 @@
     "stateFips": "27",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 87,
     "file": "US_MN_Minnesota.cpp",
     "function": "makeUSStateBoundaryMN"
   },
@@ -259,7 +236,6 @@
     "stateFips": "29",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 115,
     "file": "US_MO_Missouri.cpp",
     "function": "makeUSStateBoundaryMO"
   },
@@ -270,7 +246,6 @@
     "stateFips": "28",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 82,
     "file": "US_MS_Mississippi.cpp",
     "function": "makeUSStateBoundaryMS"
   },
@@ -281,7 +256,6 @@
     "stateFips": "30",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 56,
     "file": "US_MT_Montana.cpp",
     "function": "makeUSStateBoundaryMT"
   },
@@ -292,7 +266,6 @@
     "stateFips": "37",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 100,
     "file": "US_NC_North_Carolina.cpp",
     "function": "makeUSStateBoundaryNC"
   },
@@ -303,7 +276,6 @@
     "stateFips": "38",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 53,
     "file": "US_ND_North_Dakota.cpp",
     "function": "makeUSStateBoundaryND"
   },
@@ -314,7 +286,6 @@
     "stateFips": "31",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 93,
     "file": "US_NE_Nebraska.cpp",
     "function": "makeUSStateBoundaryNE"
   },
@@ -325,7 +296,6 @@
     "stateFips": "33",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 10,
     "file": "US_NH_New_Hampshire.cpp",
     "function": "makeUSStateBoundaryNH"
   },
@@ -336,7 +306,6 @@
     "stateFips": "34",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 21,
     "file": "US_NJ_New_Jersey.cpp",
     "function": "makeUSStateBoundaryNJ"
   },
@@ -347,7 +316,6 @@
     "stateFips": "35",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 33,
     "file": "US_NM_New_Mexico.cpp",
     "function": "makeUSStateBoundaryNM"
   },
@@ -358,7 +326,6 @@
     "stateFips": "32",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 17,
     "file": "US_NV_Nevada.cpp",
     "function": "makeUSStateBoundaryNV"
   },
@@ -369,7 +336,6 @@
     "stateFips": "36",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 62,
     "file": "US_NY_New_York.cpp",
     "function": "makeUSStateBoundaryNY"
   },
@@ -380,7 +346,6 @@
     "stateFips": "39",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 88,
     "file": "US_OH_Ohio.cpp",
     "function": "makeUSStateBoundaryOH"
   },
@@ -391,7 +356,6 @@
     "stateFips": "40",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 77,
     "file": "US_OK_Oklahoma.cpp",
     "function": "makeUSStateBoundaryOK"
   },
@@ -402,7 +366,6 @@
     "stateFips": "41",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 36,
     "file": "US_OR_Oregon.cpp",
     "function": "makeUSStateBoundaryOR"
   },
@@ -413,7 +376,6 @@
     "stateFips": "42",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 67,
     "file": "US_PA_Pennsylvania.cpp",
     "function": "makeUSStateBoundaryPA"
   },
@@ -424,7 +386,6 @@
     "stateFips": "44",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 5,
     "file": "US_RI_Rhode_Island.cpp",
     "function": "makeUSStateBoundaryRI"
   },
@@ -435,7 +396,6 @@
     "stateFips": "45",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 46,
     "file": "US_SC_South_Carolina.cpp",
     "function": "makeUSStateBoundarySC"
   },
@@ -446,7 +406,6 @@
     "stateFips": "46",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 66,
     "file": "US_SD_South_Dakota.cpp",
     "function": "makeUSStateBoundarySD"
   },
@@ -457,7 +416,6 @@
     "stateFips": "47",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 95,
     "file": "US_TN_Tennessee.cpp",
     "function": "makeUSStateBoundaryTN"
   },
@@ -468,7 +426,6 @@
     "stateFips": "48",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 254,
     "file": "US_TX_Texas.cpp",
     "function": "makeUSStateBoundaryTX"
   },
@@ -479,7 +436,6 @@
     "stateFips": "49",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 29,
     "file": "US_UT_Utah.cpp",
     "function": "makeUSStateBoundaryUT"
   },
@@ -490,7 +446,6 @@
     "stateFips": "51",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 133,
     "file": "US_VA_Virginia.cpp",
     "function": "makeUSStateBoundaryVA"
   },
@@ -501,7 +456,6 @@
     "stateFips": "50",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 14,
     "file": "US_VT_Vermont.cpp",
     "function": "makeUSStateBoundaryVT"
   },
@@ -512,7 +466,6 @@
     "stateFips": "53",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 39,
     "file": "US_WA_Washington.cpp",
     "function": "makeUSStateBoundaryWA"
   },
@@ -523,7 +476,6 @@
     "stateFips": "55",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 72,
     "file": "US_WI_Wisconsin.cpp",
     "function": "makeUSStateBoundaryWI"
   },
@@ -534,7 +486,6 @@
     "stateFips": "54",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 55,
     "file": "US_WV_West_Virginia.cpp",
     "function": "makeUSStateBoundaryWV"
   },
@@ -545,7 +496,6 @@
     "stateFips": "56",
     "countryCode": "US",
     "countryName": "United States of America",
-    "countyCount": 23,
     "file": "US_WY_Wyoming.cpp",
     "function": "makeUSStateBoundaryWY"
   }

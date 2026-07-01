@@ -20,45 +20,6 @@ Portable reverse-geocoding SDK scaffold for iOS and Android apps.
 - Android/Kotlin: `ReverseGeocoder.reverseGeocode(latitude, longitude)`
 - Android/Kotlin: `ReverseGeocoder.reverseGeocodeState(latitude, longitude)`
 
-## Add country boundary data
-
-Use the importer in [tools/import_country.py](/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/tools/import_country.py). It generates one `.cpp` file per country under `data/countries/` and refreshes the generated registry automatically.
-
-If your source is the Opendatasoft world administrative boundaries dataset, use [tools/import_from_opendatasoft.py](/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/tools/import_from_opendatasoft.py). It downloads the raw dataset record, stores the source metadata locally, and then invokes the core importer.
-
-For U.S. state boundaries derived from the Opendatasoft county dataset, use [tools/import_us_states_from_counties.py](/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/tools/import_us_states_from_counties.py). It dissolves county polygons into state polygons and writes generated sources under `data/us_states/`.
-
-Use the template at [data/countries/CountryBoundary.template.cpp](/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/data/countries/CountryBoundary.template.cpp).
-
-Example:
-
-```bash
-python3 SDK/tools/import_country.py \
-  --iso-country-code CA \
-  --country-name Canada \
-  --geoshape-file latlon-country-worker/data/source/countries.geojson
-```
-
-Opendatasoft example:
-
-```bash
-python3 SDK/tools/import_from_opendatasoft.py --iso-country-code FR
-
-python3 SDK/tools/import_us_states_from_counties.py --state-code CA
-
-python3 SDK/tools/import_us_states_from_counties.py --all --include-dc
-```
-
-Each country file should return an `rg::CountryBoundary` with:
-
-- `countryCode`
-- `countryName`
-- optional metadata fields such as `iso3Code`, `status`, `continent`, `region`, and `frenchShortName`
-- `bbox`
-- `polygons`
-- each polygon containing one outer ring and optional hole rings
-- points expressed as `{longitude, latitude}`
-
 ## Build
 
 ```bash
