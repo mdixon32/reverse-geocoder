@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/master.swiftdeps"
+  },
+  "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/runner.d",
+    "object": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/runner.dia"
+  }
+}

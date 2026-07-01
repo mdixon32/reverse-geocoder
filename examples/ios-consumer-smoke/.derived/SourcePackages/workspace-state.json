@@ -1,0 +1,31 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "ios-consumer-smoke",
+          "kind" : "root",
+          "location" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke",
+          "name" : "ios-consumer-smoke"
+        },
+        "path" : "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "ReverseGeocodeSDK"
+      }
+    ],
+    "dependencies" : [
+
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

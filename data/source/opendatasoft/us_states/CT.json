@@ -1,0 +1,17 @@
+{
+  "sourceDataset": "us-county-boundaries",
+  "statefp": "09",
+  "stusab": "CT",
+  "state_name": "Connecticut",
+  "county_count": 8,
+  "county_names": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+  ]
+}

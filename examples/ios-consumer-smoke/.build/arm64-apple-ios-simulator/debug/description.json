@@ -1,0 +1,713 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.xctest/Contents/MacOS/ReverseGeocodeSDKConsumerPackageTests",
+      "packagePath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke",
+      "productName" : "ReverseGeocodeSDKConsumerPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/libReverseGeocodeSDK.a" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/libReverseGeocodeSDK.a"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/libReverseGeocodeSDK.a"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ReverseGeocodeSDKConsumer-arm64-apple-ios-simulator-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/sources",
+      "importPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/Sources/ReverseGeocodeSDKConsumer/SmokeHarness.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/libReverseGeocodeSDK.a"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ReverseGeocodeSDKConsumer",
+      "moduleOutputPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules/ReverseGeocodeSDKConsumer.swiftmodule",
+      "objects" : [
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/SmokeHarness.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-ios15.0-simulator",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-I",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+        "-module-cache-path",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-F",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/include/ReverseGeocodeSDKConsumer-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ios_consumer_smoke"
+      ],
+      "outputFileMapPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/SmokeHarness.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules/ReverseGeocodeSDKConsumer.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/Sources/ReverseGeocodeSDKConsumer/SmokeHarness.swift"
+      ],
+      "tempsPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ReverseGeocodeSDKConsumerPackageTests-arm64-apple-ios-simulator-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/sources",
+      "importPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules/ReverseGeocodeSDKConsumerTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/libReverseGeocodeSDK.a"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ReverseGeocodeSDKConsumerPackageTests",
+      "moduleOutputPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules/ReverseGeocodeSDKConsumerPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-ios15.0-simulator",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-I",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+        "-module-cache-path",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-F",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/include/ReverseGeocodeSDKConsumerPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ios_consumer_smoke"
+      ],
+      "outputFileMapPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules/ReverseGeocodeSDKConsumerPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ReverseGeocodeSDKConsumerTests-arm64-apple-ios-simulator-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerTests.build/sources",
+      "importPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/Tests/ReverseGeocodeSDKConsumerTests/ReverseGeocodeSDKConsumerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules/ReverseGeocodeSDKConsumer.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/libReverseGeocodeSDK.a"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ReverseGeocodeSDKConsumerTests",
+      "moduleOutputPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules/ReverseGeocodeSDKConsumerTests.swiftmodule",
+      "objects" : [
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerTests.build/ReverseGeocodeSDKConsumerTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-ios15.0-simulator",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-I",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+        "-module-cache-path",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-F",
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ios_consumer_smoke"
+      ],
+      "outputFileMapPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerTests.build/ReverseGeocodeSDKConsumerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules/ReverseGeocodeSDKConsumerTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/Tests/ReverseGeocodeSDKConsumerTests/ReverseGeocodeSDKConsumerTests.swift"
+      ],
+      "tempsPath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ReverseGeocodeSDKConsumer" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ReverseGeocodeSDKConsumer",
+      "-package-name",
+      "ios_consumer_smoke",
+      "-c",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/Sources/ReverseGeocodeSDKConsumer/SmokeHarness.swift",
+      "-I",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules",
+      "-target",
+      "arm64-apple-ios15.0-simulator",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-I",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+      "-module-cache-path",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-F",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/include/ReverseGeocodeSDKConsumer-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ios_consumer_smoke",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ReverseGeocodeSDKConsumerPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ReverseGeocodeSDKConsumerPackageTests",
+      "-package-name",
+      "ios_consumer_smoke",
+      "-c",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules",
+      "-target",
+      "arm64-apple-ios15.0-simulator",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-I",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+      "-module-cache-path",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-F",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/include/ReverseGeocodeSDKConsumerPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ios_consumer_smoke",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ReverseGeocodeSDKConsumerTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ReverseGeocodeSDKConsumerTests",
+      "-package-name",
+      "ios_consumer_smoke",
+      "-c",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/Tests/ReverseGeocodeSDKConsumerTests/ReverseGeocodeSDKConsumerTests.swift",
+      "-I",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/Modules",
+      "-target",
+      "arm64-apple-ios15.0-simulator",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-I",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/outputs/ReverseGeocodeSDK.xcframework/ios-arm64-simulator/Headers",
+      "-module-cache-path",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-F",
+      "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ios_consumer_smoke",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ReverseGeocodeSDKConsumer" : [
+      "ReverseGeocodeSDK"
+    ],
+    "ReverseGeocodeSDKConsumerPackageTests" : [
+      "ReverseGeocodeSDKConsumerTests",
+      "ReverseGeocodeSDKConsumer",
+      "ReverseGeocodeSDK"
+    ],
+    "ReverseGeocodeSDKConsumerTests" : [
+      "ReverseGeocodeSDKConsumer",
+      "ReverseGeocodeSDK"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/Sources/ReverseGeocodeSDKConsumer/SmokeHarness.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/sources"
+    },
+    "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/sources"
+    },
+    "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/SmokeHarness.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerTests.build/ReverseGeocodeSDKConsumerTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/Tests/ReverseGeocodeSDKConsumerTests/ReverseGeocodeSDKConsumerTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumerTests.build/sources"
+    },
+    "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

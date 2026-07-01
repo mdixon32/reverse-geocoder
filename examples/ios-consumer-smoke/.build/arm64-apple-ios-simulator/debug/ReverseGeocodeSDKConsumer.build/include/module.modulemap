@@ -1,0 +1,3 @@
+module ReverseGeocodeSDKConsumer {
+    header "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/include/ReverseGeocodeSDKConsumer-Swift.h"
+}

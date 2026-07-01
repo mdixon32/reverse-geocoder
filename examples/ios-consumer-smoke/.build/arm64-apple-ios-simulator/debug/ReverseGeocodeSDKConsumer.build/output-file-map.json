@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/master.swiftdeps"
+  },
+  "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/Sources/ReverseGeocodeSDKConsumer/SmokeHarness.swift": {
+    "dependencies": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/SmokeHarness.d",
+    "object": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/SmokeHarness.swift.o",
+    "swiftmodule": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/SmokeHarness~partial.swiftmodule",
+    "swift-dependencies": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/SmokeHarness.swiftdeps",
+    "diagnostics": "/Users/martindixon/Documents/Codex/2026-06-29/i/SDK/examples/ios-consumer-smoke/.build/arm64-apple-ios-simulator/debug/ReverseGeocodeSDKConsumer.build/SmokeHarness.dia"
+  }
+}

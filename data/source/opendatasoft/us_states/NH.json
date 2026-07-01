@@ -1,0 +1,19 @@
+{
+  "sourceDataset": "us-county-boundaries",
+  "statefp": "33",
+  "stusab": "NH",
+  "state_name": "New Hampshire",
+  "county_count": 10,
+  "county_names": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+  ]
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reverse Geocode Polygon Viewer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <h1>Polygon Viewer</h1>
+        <p class="sidebar-copy">
+          Inspect country boundaries from the SDK source dataset.
+        </p>
+
+        <label class="field">
+          <span>Country</span>
+          <input id="country-search" type="search" placeholder="Search by name or ISO code" />
+        </label>
+
+        <label class="field">
+          <span>Select</span>
+          <select id="country-select"></select>
+        </label>
+
+        <div class="button-row">
+          <button id="fit-button" type="button">Fit Bounds</button>
+          <button id="reset-button" type="button">Reset View</button>
+        </div>
+
+        <div class="meta-card">
+          <h2>Metadata</h2>
+          <dl id="metadata"></dl>
+        </div>
+
+        <div class="meta-card">
+          <h2>Viewport</h2>
+          <dl id="viewport-readout"></dl>
+        </div>
+
+        <p class="help-text">
+          Drag to pan. Scroll to zoom. Double-click to fit the selected country.
+        </p>
+      </aside>
+
+      <main class="viewer">
+        <canvas id="map-canvas"></canvas>
+        <div class="status-bar">
+          <span id="status-text">Loading manifest…</span>
+          <span id="cursor-readout"></span>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="./viewer.js"></script>
+  </body>
+</html>

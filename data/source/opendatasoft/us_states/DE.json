@@ -1,0 +1,12 @@
+{
+  "sourceDataset": "us-county-boundaries",
+  "statefp": "10",
+  "stusab": "DE",
+  "state_name": "Delaware",
+  "county_count": 3,
+  "county_names": [
+    "Kent County",
+    "New Castle County",
+    "Sussex County"
+  ]
+}
